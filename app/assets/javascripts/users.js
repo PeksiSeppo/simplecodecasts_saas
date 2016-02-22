@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  Stripe.setPublishableKey($('met[name="stripe-key"]').attr('content'));
+  Stripe.setPublishableKey($('meta[name="stripe-key"]').attr('content'));
   // Wath for a form submission
   $("#form-submit-btn").click(function(event){
     event.preventDefault();
